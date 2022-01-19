@@ -41,7 +41,7 @@ export default function Home() {
     const [mintCount, setMintCount] = useState(1);
 
     const myMin = 1
-    const myMax = 5
+    const myMax = 10
 
     return (
       <>
@@ -97,7 +97,7 @@ export default function Home() {
 
         <div className="mint-container">
           <h1 className="specialFont" >Doggie Punks Mint</h1>
-          <p className="specialFont">0.25 SOL</p>
+          <p className="specialFont">0.1 SOL</p>
           <img className="main_image" src="/imgs/main_image.gif" alt="logo" />
           {connected ? (
             <>
